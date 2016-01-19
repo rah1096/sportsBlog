@@ -1,0 +1,14 @@
+2016-01-19T08:41:13.696-0700 I CONTROL  [main] ***** SERVER RESTARTED *****
+2016-01-19T08:41:13.711-0700 I CONTROL  [initandlisten] MongoDB starting : pid=13046 port=27017 dbpath=/Users/MagicTime/WebstormProjects/sportsBlog/data/db 64-bit host=Tims-MacBook-Pro.local
+2016-01-19T08:41:13.711-0700 I CONTROL  [initandlisten] db version v3.2.1
+2016-01-19T08:41:13.711-0700 I CONTROL  [initandlisten] git version: a14d55980c2cdc565d4704a7e3ad37e4e535c1b2
+2016-01-19T08:41:13.711-0700 I CONTROL  [initandlisten] allocator: system
+2016-01-19T08:41:13.711-0700 I CONTROL  [initandlisten] modules: none
+2016-01-19T08:41:13.711-0700 I CONTROL  [initandlisten] build environment:
+2016-01-19T08:41:13.711-0700 I CONTROL  [initandlisten]     distarch: x86_64
+2016-01-19T08:41:13.711-0700 I CONTROL  [initandlisten]     target_arch: x86_64
+2016-01-19T08:41:13.711-0700 I CONTROL  [initandlisten] options: { net: { http: { RESTInterfaceEnabled: true, enabled: true } }, storage: { dbPath: "/Users/MagicTime/WebstormProjects/sportsBlog/data/db", directoryPerDB: true }, systemLog: { destination: "file", logAppend: true, path: "/Users/Magictime/WebstormProjects/sportsBlog/data/log/mongo.log" } }
+2016-01-19T08:41:13.711-0700 E NETWORK  [initandlisten] listen(): bind() failed errno:48 Address already in use for socket: 0.0.0.0:27017
+2016-01-19T08:41:13.711-0700 E NETWORK  [initandlisten]   addr already in use
+2016-01-19T08:41:13.711-0700 E STORAGE  [initandlisten] Failed to set up sockets during startup.
+2016-01-19T08:41:13.711-0700 I CONTROL  [initandlisten] dbexit:  rc: 48
