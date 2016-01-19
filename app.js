@@ -67,7 +67,7 @@ app.use(function (req, res, next) {
 app.use('/', routes);
 app.use('/articles', articles);
 app.use('/categories', categories);
-app.use('/manage', manage)
+app.use('/manage', manage);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
