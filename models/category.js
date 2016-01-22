@@ -17,22 +17,22 @@ var categorySchema = mongoose.Schema({
 var Category = module.exports = mongoose.model('Category', categorySchema);
 
 // Get Categories
-module.exports.getCategories = function(callback, limit) {
+module.exports.getCategories = function(callback, limit){
     Category.find(callback).limit(limit).sort([['title', 'ascending']]);
 }
 
 // Add Category
-module.exports.addCategory = function(category, callback) {
+module.exports.addCategory = function(category, callback){
     Category.create(category, callback);
 }
 
-// Get single Category
-module.exports.getCategoryById = function(id, callback) {
+// Get Single Category
+module.exports.getCategoryById = function(id, callback){
     Category.findById(id, callback);
 }
 
 // Update Category
-module.exports.updateCategory = function(query, update, options, callback) {
+module.exports.updateCategory = function(query, update, options, callback){
     Category.findOneAndUpdate(query, update, options, callback);
 }
 
